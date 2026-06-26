@@ -1,0 +1,11 @@
+﻿numpy
+pandas
+scipy
+matplotlib
+seaborn
+scanpy
+anndata
+umap-learn
+leidenalg
+python-docx
+Pillow
