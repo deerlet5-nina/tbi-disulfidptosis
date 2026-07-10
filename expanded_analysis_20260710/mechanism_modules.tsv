@@ -1,0 +1,152 @@
+module	gene_symbol	module_class	interpretation
+Eight_gene_panel	SLC3A2	core_panel	Original prespecified transporter-actin panel
+Eight_gene_panel	SLC7A11	core_panel	Original prespecified transporter-actin panel
+Eight_gene_panel	WASF2	core_panel	Original prespecified transporter-actin panel
+Eight_gene_panel	TLN1	core_panel	Original prespecified transporter-actin panel
+Eight_gene_panel	ACTB	core_panel	Original prespecified transporter-actin panel
+Eight_gene_panel	MYH9	core_panel	Original prespecified transporter-actin panel
+Eight_gene_panel	MYL6	core_panel	Original prespecified transporter-actin panel
+Eight_gene_panel	FLNA	core_panel	Original prespecified transporter-actin panel
+Transporter_entry	SLC3A2	core_panel	System xc- heavy-chain partner
+Transporter_entry	SLC7A11	core_panel	System xc- light-chain transporter
+Regulatory_bridge	WASF2	core_panel	WAVE-regulatory-complex actin branching
+Regulatory_bridge	TLN1	core_panel	Integrin-actin adhesion tension
+Cytoskeletal_endpoint	ACTB	core_panel	Actin filament endpoint
+Cytoskeletal_endpoint	MYH9	core_panel	Non-muscle myosin contractility
+Cytoskeletal_endpoint	MYL6	core_panel	Myosin light-chain contractility
+Cytoskeletal_endpoint	FLNA	core_panel	Actin crosslinking and mechanics
+Disulfidptosis_core	SLC7A11	mechanism	Cystine uptake and reducing-power demand
+Disulfidptosis_core	SLC3A2	mechanism	System xc- transporter complex
+Disulfidptosis_core	RPN1	mechanism	Disulfidptosis genetic dependency reported with system xc-
+Disulfidptosis_core	RAC1	mechanism	Rac-WRC signaling
+Disulfidptosis_core	NCKAP1	mechanism	WAVE regulatory complex
+Disulfidptosis_core	CYFIP1	mechanism	WAVE regulatory complex
+Disulfidptosis_core	WASF2	mechanism	WAVE regulatory complex
+Disulfidptosis_core	ABI2	mechanism	WAVE regulatory complex
+Disulfidptosis_core	BRK1	mechanism	WAVE regulatory complex
+PPP_NADPH	G6PD	metabolic_context	Oxidative pentose phosphate pathway
+PPP_NADPH	PGLS	metabolic_context	Oxidative pentose phosphate pathway
+PPP_NADPH	PGD	metabolic_context	Oxidative pentose phosphate pathway
+PPP_NADPH	RPIA	metabolic_context	Pentose phosphate pathway
+PPP_NADPH	RPE	metabolic_context	Pentose phosphate pathway
+PPP_NADPH	TKT	metabolic_context	Non-oxidative pentose phosphate pathway
+PPP_NADPH	TALDO1	metabolic_context	Non-oxidative pentose phosphate pathway
+PPP_NADPH	H6PD	metabolic_context	Endoplasmic-reticulum NADPH production
+PPP_NADPH	ME1	metabolic_context	Cytosolic NADPH production
+PPP_NADPH	IDH1	metabolic_context	Cytosolic NADPH production
+PPP_NADPH	MTHFD1	metabolic_context	One-carbon-dependent NADPH production
+PPP_NADPH	MTHFD1L	metabolic_context	Mitochondrial one-carbon metabolism
+PPP_NADPH	NNT	metabolic_context	Mitochondrial NADPH regeneration
+Glutathione_redox	GCLC	metabolic_context	Glutathione synthesis
+Glutathione_redox	GCLM	metabolic_context	Glutathione synthesis
+Glutathione_redox	GSS	metabolic_context	Glutathione synthesis
+Glutathione_redox	GSR	metabolic_context	Glutathione recycling
+Glutathione_redox	GPX4	metabolic_context	Lipid peroxide reduction
+Glutathione_redox	TXN	metabolic_context	Thioredoxin redox system
+Glutathione_redox	TXNRD1	metabolic_context	Thioredoxin redox system
+Glutathione_redox	PRDX1	metabolic_context	Peroxide reduction
+Glutathione_redox	PRDX2	metabolic_context	Peroxide reduction
+Glutathione_redox	SOD1	metabolic_context	Superoxide handling
+Glutathione_redox	SOD2	metabolic_context	Mitochondrial superoxide handling
+Glutathione_redox	NFE2L2	metabolic_context	Antioxidant-response transcription factor
+Glutathione_redox	KEAP1	metabolic_context	NFE2L2 regulation
+WRC_actin_branching	RAC1	cytoskeletal_context	Rac-WRC signaling
+WRC_actin_branching	NCKAP1	cytoskeletal_context	WAVE regulatory complex
+WRC_actin_branching	CYFIP1	cytoskeletal_context	WAVE regulatory complex
+WRC_actin_branching	WASF2	cytoskeletal_context	WAVE regulatory complex
+WRC_actin_branching	ABI2	cytoskeletal_context	WAVE regulatory complex
+WRC_actin_branching	BRK1	cytoskeletal_context	WAVE regulatory complex
+WRC_actin_branching	ACTR2	cytoskeletal_context	Arp2/3 complex
+WRC_actin_branching	ACTR3	cytoskeletal_context	Arp2/3 complex
+WRC_actin_branching	ARPC1B	cytoskeletal_context	Arp2/3 complex
+WRC_actin_branching	ARPC2	cytoskeletal_context	Arp2/3 complex
+WRC_actin_branching	ARPC3	cytoskeletal_context	Arp2/3 complex
+WRC_actin_branching	ARPC4	cytoskeletal_context	Arp2/3 complex
+WRC_actin_branching	ARPC5	cytoskeletal_context	Arp2/3 complex
+WRC_actin_branching	CFL1	cytoskeletal_context	Actin turnover
+Focal_adhesion_tension	TLN1	cytoskeletal_context	Integrin-actin linkage
+Focal_adhesion_tension	TLN2	cytoskeletal_context	Integrin-actin linkage
+Focal_adhesion_tension	VCL	cytoskeletal_context	Focal adhesion mechanics
+Focal_adhesion_tension	PXN	cytoskeletal_context	Focal adhesion scaffold
+Focal_adhesion_tension	ITGB1	cytoskeletal_context	Integrin signaling
+Focal_adhesion_tension	PTK2	cytoskeletal_context	Focal adhesion kinase
+Focal_adhesion_tension	ILK	cytoskeletal_context	Integrin-linked kinase
+Focal_adhesion_tension	ZYX	cytoskeletal_context	Mechanosensitive focal adhesion
+Focal_adhesion_tension	FERMT2	cytoskeletal_context	Integrin activation
+Focal_adhesion_tension	ACTN1	cytoskeletal_context	Actin crosslinking
+Focal_adhesion_tension	ACTN4	cytoskeletal_context	Actin crosslinking
+Focal_adhesion_tension	FLNA	cytoskeletal_context	Actin-integrin mechanics
+Actomyosin_endpoint	ACTB	cytoskeletal_context	Actin filament
+Actomyosin_endpoint	FLNA	cytoskeletal_context	Actin crosslinking
+Actomyosin_endpoint	FLNB	cytoskeletal_context	Actin crosslinking
+Actomyosin_endpoint	MYH9	cytoskeletal_context	Non-muscle myosin II
+Actomyosin_endpoint	MYH10	cytoskeletal_context	Non-muscle myosin II
+Actomyosin_endpoint	MYL6	cytoskeletal_context	Myosin light chain
+Actomyosin_endpoint	MYL9	cytoskeletal_context	Myosin light chain
+Actomyosin_endpoint	ACTN4	cytoskeletal_context	Actin crosslinking
+Actomyosin_endpoint	CAPZB	cytoskeletal_context	Actin capping
+Actomyosin_endpoint	DSTN	cytoskeletal_context	Actin depolymerization
+Actomyosin_endpoint	IQGAP1	cytoskeletal_context	Actin scaffold
+Actomyosin_endpoint	PDLIM1	cytoskeletal_context	Actin-associated scaffold
+Actomyosin_endpoint	INF2	cytoskeletal_context	Actin polymerization
+Actomyosin_endpoint	CD2AP	cytoskeletal_context	Actin-associated adaptor
+Actomyosin_endpoint	DBN1	cytoskeletal_context	Actin-binding protein
+Ferroptosis_comparator	SLC7A11	comparator	Ferroptosis/redox comparator
+Ferroptosis_comparator	GPX4	comparator	Ferroptosis/redox comparator
+Ferroptosis_comparator	ACSL4	comparator	Ferroptosis/redox comparator
+Ferroptosis_comparator	TFRC	comparator	Ferroptosis/redox comparator
+Ferroptosis_comparator	LPCAT3	comparator	Ferroptosis/redox comparator
+Ferroptosis_comparator	ALOX15	comparator	Ferroptosis/redox comparator
+Ferroptosis_comparator	FTH1	comparator	Ferroptosis/redox comparator
+Ferroptosis_comparator	FTL	comparator	Ferroptosis/redox comparator
+Ferroptosis_comparator	SAT1	comparator	Ferroptosis/redox comparator
+Ferroptosis_comparator	HMOX1	comparator	Ferroptosis/redox comparator
+Ferroptosis_comparator	GCLC	comparator	Ferroptosis/redox comparator
+Ferroptosis_comparator	GCLM	comparator	Ferroptosis/redox comparator
+Ferroptosis_comparator	GSS	comparator	Ferroptosis/redox comparator
+Ferroptosis_comparator	AIFM2	comparator	FSP1 ferroptosis suppressor
+Ferroptosis_comparator	DHODH	comparator	Mitochondrial ferroptosis suppressor
+Apoptosis_comparator	BAX	comparator	Mitochondrial apoptosis
+Apoptosis_comparator	BAK1	comparator	Mitochondrial apoptosis
+Apoptosis_comparator	BCL2	comparator	Mitochondrial apoptosis
+Apoptosis_comparator	BCL2L1	comparator	Mitochondrial apoptosis
+Apoptosis_comparator	MCL1	comparator	Mitochondrial apoptosis
+Apoptosis_comparator	BID	comparator	Mitochondrial apoptosis
+Apoptosis_comparator	BBC3	comparator	Mitochondrial apoptosis
+Apoptosis_comparator	PMAIP1	comparator	Mitochondrial apoptosis
+Apoptosis_comparator	CYCS	comparator	Mitochondrial apoptosis
+Apoptosis_comparator	APAF1	comparator	Mitochondrial apoptosis
+Apoptosis_comparator	CASP9	comparator	Mitochondrial apoptosis
+Apoptosis_comparator	CASP3	comparator	Executioner caspase
+Apoptosis_comparator	CASP7	comparator	Executioner caspase
+Apoptosis_comparator	CASP8	comparator	Initiator caspase
+Pyroptosis_comparator	NLRP3	comparator	Inflammasome/pyroptosis
+Pyroptosis_comparator	PYCARD	comparator	Inflammasome/pyroptosis
+Pyroptosis_comparator	CASP1	comparator	Inflammasome/pyroptosis
+Pyroptosis_comparator	GSDMD	comparator	Pyroptosis execution
+Pyroptosis_comparator	IL1B	comparator	Inflammasome output
+Pyroptosis_comparator	IL18	comparator	Inflammasome output
+Pyroptosis_comparator	AIM2	comparator	Inflammasome/pyroptosis
+Pyroptosis_comparator	NLRC4	comparator	Inflammasome/pyroptosis
+BBB_endothelial_context	CLDN5	cell_context	Blood-brain barrier endothelial marker
+BBB_endothelial_context	OCLN	cell_context	Tight junction
+BBB_endothelial_context	TJP1	cell_context	Tight junction scaffold
+BBB_endothelial_context	PECAM1	cell_context	Endothelial marker
+BBB_endothelial_context	VWF	cell_context	Endothelial marker
+BBB_endothelial_context	KDR	cell_context	Endothelial receptor
+BBB_endothelial_context	EMCN	cell_context	Endothelial marker
+BBB_endothelial_context	RAMP2	cell_context	Vascular homeostasis
+BBB_endothelial_context	MFSD2A	cell_context	Blood-brain barrier transport
+BBB_endothelial_context	ABCB1	cell_context	Blood-brain barrier efflux
+BBB_endothelial_context	SLC2A1	cell_context	Endothelial glucose transport
+Inflammation_context	TNF	cell_context	Inflammatory signaling
+Inflammation_context	IL1B	cell_context	Inflammatory signaling
+Inflammation_context	IL6	cell_context	Inflammatory signaling
+Inflammation_context	CCL2	cell_context	Chemokine signaling
+Inflammation_context	NFKB1	cell_context	NF-kB signaling
+Inflammation_context	RELA	cell_context	NF-kB signaling
+Inflammation_context	STAT1	cell_context	Interferon signaling
+Inflammation_context	IRF1	cell_context	Interferon signaling
+Inflammation_context	IFIT1	cell_context	Interferon response
+Inflammation_context	ISG15	cell_context	Interferon response
+Inflammation_context	CXCL10	cell_context	Chemokine signaling
