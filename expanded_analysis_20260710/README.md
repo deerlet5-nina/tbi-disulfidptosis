@@ -12,7 +12,7 @@ This package reproduces the expanded public-transcriptomic analysis for the manu
 - `04_create_synthesis_tables_and_figures.py`: creates the four main figures, three supplementary figures and synthesis tables from saved analysis results.
 - `mechanism_modules.tsv`: prespecified module-to-gene definitions.
 - `R_sessionInfo.txt`: R version and package environment used for the submitted run.
-- `assets/Fig1_base_design.tif`: base study-design and hypothesis artwork used by the figure-composition script.
+- `assets/Fig1_base_design.tif`: base study-design and hypothesis artwork included in submitted Online Resource 3. The binary artwork is not duplicated in this GitHub folder; supply it locally when composing Fig. 1.
 
 ## Public inputs
 
