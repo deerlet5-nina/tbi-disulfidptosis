@@ -1,24 +1,29 @@
-﻿# tbi-disulfidptosis
+# tbi-disulfidptosis
 
-This repository contains processed source tables and analysis scripts for the manuscript **"Transcriptomic Prioritization of a Disulfidptosis-Like Transporter-Actin Stress Axis After Traumatic Brain Injury"** submitted to *Neurochemical Research*.
+This public repository supports the manuscript **"Transcriptomic Prioritization of a Disulfidptosis-Like Transporter-Actin Stress Axis After Traumatic Brain Injury"** submitted to *Neurochemical Research*.
 
-The study is a public-transcriptome prioritization analysis. It does not contain newly generated human participant data, human biospecimens, animal experiments or wet-laboratory measurements. The repository is intended to make the processed tables, figure-supporting files and analysis scripts available for editorial and reviewer inspection.
+The study reanalyzes public transcriptomic data and does not contain newly generated human-participant data, human biospecimens, animal experiments, or wet-laboratory measurements.
 
-## Repository contents
+## Current expanded analysis
 
-- `data/source_tables/`: CSV source tables corresponding to the manuscript online source-table archive.
-- `scripts/`: analysis and manuscript/figure construction scripts supplied with the submission package.
-- `figures/`: supplementary robustness-audit figure supplied as an online resource.
-- `requirements.txt`: core Python packages used across the workflow.
+The submission-version workflow is available in [`expanded_analysis_20260710/`](expanded_analysis_20260710/). It includes:
 
-## Data sources
+- preparation of GSE111452 and GSE223245 GEO matrices;
+- covariate-aware bulk and microarray models;
+- prespecified 15-module scoring and ranked enrichment;
+- donor-level GSE209552 single-nucleus localization, permutation testing, and adjusted module coupling;
+- four compact main figures, three supplementary figures, and synthesis tables.
 
-The analyses use public Gene Expression Omnibus resources cited in the manuscript: GSE209552, GSE193407, GSE319253, GSE104687, GSE163415 and GSE223245. Some scripts may require users to download GEO data files separately before rerunning the complete workflow.
+The complete processed source tables and the Figure 1 base artwork are distributed with the manuscript as Online Resources 2 and 3. The repository code is intended to be used with the public GEO inputs documented in the workflow README.
+
+## Public data sources
+
+GSE209552, GSE193407, GSE319253, GSE104687, GSE163415, GSE223245, GSE111452, and GSE298240.
 
 ## Interpretation boundary
 
-The integrated score and robustness audit are prioritization tools for heterogeneous public transcriptomic evidence. They are not pooled statistical effect estimates, diagnostic models or direct evidence of disulfidptotic cell death. Protein, redox, F-actin and cell-type validation remain required for mechanistic confirmation.
+Results are kept within their native dataset designs. Cross-dataset displays are descriptive and are not pooled statistical estimates. Donors, not nuclei, are the inferential units for single-nucleus comparisons. The analyses do not measure cystine flux, NADPH debt, protein disulfidation, F-actin collapse, or rescue of a specific cell-death phenotype; they prioritize experiments rather than demonstrate disulfidptotic cell death.
 
 ## Correspondence
 
-Corresponding author: Mingyang Zhang, mingyangzhang@suda.edu.cn
+Mingyang Zhang, mingyangzhang@suda.edu.cn
